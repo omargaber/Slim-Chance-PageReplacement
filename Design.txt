@@ -1,0 +1,27 @@
+Design
+
+
+- In "vm_pageout.c" the following modifications were added:
+
+	1. The variable "vm_pageout_update_period" is modified to set scanning of all active pages to in queue to 10 seconds.
+
+	2. In the function "vm_pageout_scan()" variables were added to keep track of the active, inactive, freed and flushed pages.
+
+	3. Invocation of custom functions like "vm_page_free_custom()" to move page to rear free queue, "vm_page_deactivate_custom()" to move page to front of inactive queue and "vm_page_requeue_locked_custom()" to move page to front of current queue. These functions were declared in "vm_page.c"
+
+
+- In "vm_page.c" the following modifications were added:
+
+	1. Function "vm_page_free_custom()" was declared to move page to rear of free queue, is used the same implementation of "vm_page_free()", except for the fact that it invokes "vm_phys_free_pages_custom" declared in "vm_phys.c".
+
+	2. Function "vm_page_deactivate_custom()" was declared to move page to front of inactive queue.
+
+	3. Function "vm_page_requeue_locked_custom()" was declared to move page to front of current queue.
+
+
+- In "vm_page.h", the custom functions prototypes are declared.
+
+
+- In "vm_phys.c", function "vm_phys_free_pages_custom()" was declared to free a contiguous 2-sized set of pages.
+
+- In "vm_phys.h", the prototype of the previously mentioned custom declared function is added.

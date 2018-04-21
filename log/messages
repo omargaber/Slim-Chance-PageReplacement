@@ -1,0 +1,457 @@
+Begin LoggingApr 21 20:03:29 freebsd-177 syslogd: kernel boot file is /boot/kernel/kernel
+Apr 21 20:03:29 freebsd-177 kernel: Copyright (c) 1992-2016 The FreeBSD Project.
+Apr 21 20:03:29 freebsd-177 kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Apr 21 20:03:29 freebsd-177 kernel: The Regents of the University of California. All rights reserved.
+Apr 21 20:03:29 freebsd-177 kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Apr 21 20:03:29 freebsd-177 kernel: FreeBSD 10.3-RELEASE #23: Sat Apr 21 19:57:21 EET 2018
+Apr 21 20:03:29 freebsd-177 kernel: root@freebsd-177:/usr/obj/usr/src/sys/X amd64
+Apr 21 20:03:29 freebsd-177 kernel: FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Apr 21 20:03:29 freebsd-177 kernel: CPU: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz (2594.06-MHz K8-class CPU)
+Apr 21 20:03:29 freebsd-177 kernel: Origin="GenuineIntel"  Id=0x40651  Family=0x6  Model=0x45  Stepping=1
+Apr 21 20:03:29 freebsd-177 kernel: Features=0x783fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2>
+Apr 21 20:03:29 freebsd-177 kernel: Features2=0x5ed8220b<SSE3,PCLMULQDQ,MON,SSSE3,CX16,SSE4.1,SSE4.2,MOVBE,POPCNT,AESNI,XSAVE,OSXSAVE,AVX,RDRAND>
+Apr 21 20:03:29 freebsd-177 kernel: AMD Features=0x28100800<SYSCALL,NX,RDTSCP,LM>
+Apr 21 20:03:29 freebsd-177 kernel: AMD Features2=0x21<LAHF,ABM>
+Apr 21 20:03:29 freebsd-177 kernel: Structured Extended Features=0x2000<NFPUSG>
+Apr 21 20:03:29 freebsd-177 kernel: TSC: P-state invariant
+Apr 21 20:03:29 freebsd-177 kernel: real memory  = 4831838208 (4608 MB)
+Apr 21 20:03:29 freebsd-177 kernel: avail memory = 4113596416 (3923 MB)
+Apr 21 20:03:29 freebsd-177 kernel: Event timer "LAPIC" quality 400
+Apr 21 20:03:29 freebsd-177 kernel: ACPI APIC Table: <VBOX   VBOXAPIC>
+Apr 21 20:03:29 freebsd-177 kernel: random: <Software, Yarrow> initialized
+Apr 21 20:03:29 freebsd-177 kernel: ioapic0 <Version 1.1> irqs 0-23 on motherboard
+Apr 21 20:03:29 freebsd-177 kernel: kbd1 at kbdmux0
+Apr 21 20:03:29 freebsd-177 kernel: acpi0: <VBOX VBOXXSDT> on motherboard
+Apr 21 20:03:29 freebsd-177 kernel: acpi0: Power Button (fixed)
+Apr 21 20:03:29 freebsd-177 kernel: acpi0: Sleep Button (fixed)
+Apr 21 20:03:29 freebsd-177 kernel: cpu0: <ACPI CPU> on acpi0
+Apr 21 20:03:29 freebsd-177 kernel: attimer0: <AT timer> port 0x40-0x43,0x50-0x53 on acpi0
+Apr 21 20:03:29 freebsd-177 kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Apr 21 20:03:29 freebsd-177 kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Apr 21 20:03:29 freebsd-177 kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Apr 21 20:03:29 freebsd-177 kernel: acpi_timer0: <32-bit timer at 3.579545MHz> port 0x4008-0x400b on acpi0
+Apr 21 20:03:29 freebsd-177 kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Apr 21 20:03:29 freebsd-177 kernel: pci0: <ACPI PCI bus> on pcib0
+Apr 21 20:03:29 freebsd-177 kernel: isab0: <PCI-ISA bridge> at device 1.0 on pci0
+Apr 21 20:03:29 freebsd-177 kernel: isa0: <ISA bus> on isab0
+Apr 21 20:03:29 freebsd-177 kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0xd000-0xd00f at device 1.1 on pci0
+Apr 21 20:03:29 freebsd-177 kernel: ata0: <ATA channel> at channel 0 on atapci0
+Apr 21 20:03:29 freebsd-177 kernel: ata1: <ATA channel> at channel 1 on atapci0
+Apr 21 20:03:29 freebsd-177 kernel: vgapci0: <VGA-compatible display> mem 0xe0000000-0xe0ffffff irq 18 at device 2.0 on pci0
+Apr 21 20:03:29 freebsd-177 kernel: vgapci0: Boot video device
+Apr 21 20:03:29 freebsd-177 kernel: em0: <Intel(R) PRO/1000 Legacy Network Connection 1.1.0> port 0xd010-0xd017 mem 0xf0000000-0xf001ffff irq 19 at device 3.0 on pci0
+Apr 21 20:03:29 freebsd-177 kernel: em0: Ethernet address: 08:00:27:f9:ea:cc
+Apr 21 20:03:29 freebsd-177 kernel: pcm0: <Intel ICH (82801AA)> port 0xd100-0xd1ff,0xd200-0xd23f irq 21 at device 5.0 on pci0
+Apr 21 20:03:29 freebsd-177 kernel: pcm0: <SigmaTel STAC9700/83/84 AC97 Codec>
+Apr 21 20:03:29 freebsd-177 kernel: pci0: <bridge> at device 7.0 (no driver attached)
+Apr 21 20:03:29 freebsd-177 kernel: battery0: <ACPI Control Method Battery> on acpi0
+Apr 21 20:03:29 freebsd-177 kernel: acpi_acad0: <AC Adapter> on acpi0
+Apr 21 20:03:29 freebsd-177 kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Apr 21 20:03:29 freebsd-177 kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Apr 21 20:03:29 freebsd-177 kernel: kbd0 at atkbd0
+Apr 21 20:03:29 freebsd-177 kernel: atkbd0: [GIANT-LOCKED]
+Apr 21 20:03:29 freebsd-177 kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Apr 21 20:03:29 freebsd-177 kernel: psm0: [GIANT-LOCKED]
+Apr 21 20:03:29 freebsd-177 kernel: psm0: model IntelliMouse Explorer, device ID 4
+Apr 21 20:03:29 freebsd-177 kernel: orm0: <ISA Option ROMs> at iomem 0xc0000-0xc7fff,0xe2000-0xef7ff on isa0
+Apr 21 20:03:29 freebsd-177 kernel: sc0: <System console> at flags 0x100 on isa0
+Apr 21 20:03:29 freebsd-177 kernel: sc0: VGA <16 virtual consoles, flags=0x300>
+Apr 21 20:03:29 freebsd-177 kernel: vga0: <Generic ISA VGA> at port 0x3c0-0x3df iomem 0xa0000-0xbffff on isa0
+Apr 21 20:03:29 freebsd-177 kernel: atrtc0: <AT realtime clock> at port 0x70 irq 8 on isa0
+Apr 21 20:03:29 freebsd-177 kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Apr 21 20:03:29 freebsd-177 kernel: ppc0: cannot reserve I/O port range
+Apr 21 20:03:29 freebsd-177 kernel: ZFS NOTICE: Prefetch is disabled by default if less than 4GB of RAM is present;
+Apr 21 20:03:29 freebsd-177 kernel: to enable, add "vfs.zfs.prefetch_disable=0" to /boot/loader.conf.
+Apr 21 20:03:29 freebsd-177 kernel: ZFS filesystem version: 5
+Apr 21 20:03:29 freebsd-177 kernel: ZFS storage pool version: features support (5000)
+Apr 21 20:03:29 freebsd-177 kernel: Timecounters tick every 1.000 msec
+Apr 21 20:03:29 freebsd-177 kernel: pcm0: ac97 link rate calibration timed out after 1999151 us
+Apr 21 20:03:29 freebsd-177 kernel: em0: link state changed to UP
+Apr 21 20:03:29 freebsd-177 kernel: ada0 at ata0 bus 0 scbus0 target 0 lun 0
+Apr 21 20:03:29 freebsd-177 kernel: ada0: <VBOX HARDDISK 1.0> ATA-6 device
+Apr 21 20:03:29 freebsd-177 kernel: ada0: Serial Number VBc281e83e-a34b9ec5
+Apr 21 20:03:29 freebsd-177 kernel: ada0: 33.300MB/s transfers (UDMA2, PIO 65536bytes)
+Apr 21 20:03:29 freebsd-177 kernel: ada0: 30720MB (62914560 512 byte sectors)
+Apr 21 20:03:29 freebsd-177 kernel: ada0: Previously was known as ad0
+Apr 21 20:03:29 freebsd-177 kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Apr 21 20:03:29 freebsd-177 kernel: cd0: <VBOX CD-ROM 1.0> Removable CD-ROM SCSI device
+Apr 21 20:03:29 freebsd-177 kernel: cd0: Serial Number VB2-01700376
+Apr 21 20:03:29 freebsd-177 kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Apr 21 20:03:29 freebsd-177 kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Apr 21 20:03:29 freebsd-177 kernel: random: unblocking device.
+Apr 21 20:03:29 freebsd-177 kernel: Timecounter "TSC-low" frequency 1297030283 Hz quality 1000
+Apr 21 20:03:29 freebsd-177 kernel: Trying to mount root from zfs:zroot/ROOT/default []...
+Apr 21 20:03:29 freebsd-177 kernel: vboxguest0 port 0xd020-0xd03f mem 0xf0400000-0xf07fffff,0xf0800000-0xf0803fff irq 20 at device 4.0 on pci0
+Apr 21 20:03:29 freebsd-177 kernel: vboxguest: loaded successfully
+Apr 21 20:03:29 freebsd-177 ntpd[617]: ntpd 4.2.8p6-a (1): Starting
+Apr 21 20:03:29 freebsd-177 ntpd[618]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): good hash signature
+Apr 21 20:03:29 freebsd-177 ntpd[618]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): loaded, expire=2016-06-01T00:00:00Z last=2015-07-01T00:00:00Z ofs=36
+Apr 21 20:03:29 freebsd-177 ntpd[618]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): expired less than 690 days agoApr 21 20:12:30 freebsd-177 syslogd: kernel boot file is /boot/kernel/kernel
+Apr 21 20:12:30 freebsd-177 kernel: Copyright (c) 1992-2016 The FreeBSD Project.
+Apr 21 20:12:30 freebsd-177 kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Apr 21 20:12:30 freebsd-177 kernel: The Regents of the University of California. All rights reserved.
+Apr 21 20:12:30 freebsd-177 kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Apr 21 20:12:30 freebsd-177 kernel: FreeBSD 10.3-RELEASE #23: Sat Apr 21 19:57:21 EET 2018
+Apr 21 20:12:30 freebsd-177 kernel: root@freebsd-177:/usr/obj/usr/src/sys/X amd64
+Apr 21 20:12:30 freebsd-177 kernel: FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Apr 21 20:12:30 freebsd-177 kernel: CPU: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz (2594.09-MHz K8-class CPU)
+Apr 21 20:12:30 freebsd-177 kernel: Origin="GenuineIntel"  Id=0x40651  Family=0x6  Model=0x45  Stepping=1
+Apr 21 20:12:30 freebsd-177 kernel: Features=0x783fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2>
+Apr 21 20:12:30 freebsd-177 kernel: Features2=0x5ed8220b<SSE3,PCLMULQDQ,MON,SSSE3,CX16,SSE4.1,SSE4.2,MOVBE,POPCNT,AESNI,XSAVE,OSXSAVE,AVX,RDRAND>
+Apr 21 20:12:30 freebsd-177 kernel: AMD Features=0x28100800<SYSCALL,NX,RDTSCP,LM>
+Apr 21 20:12:30 freebsd-177 kernel: AMD Features2=0x21<LAHF,ABM>
+Apr 21 20:12:30 freebsd-177 kernel: Structured Extended Features=0x2000<NFPUSG>
+Apr 21 20:12:30 freebsd-177 kernel: TSC: P-state invariant
+Apr 21 20:12:30 freebsd-177 kernel: real memory  = 4831838208 (4608 MB)
+Apr 21 20:12:30 freebsd-177 kernel: avail memory = 4113596416 (3923 MB)
+Apr 21 20:12:30 freebsd-177 kernel: Event timer "LAPIC" quality 400
+Apr 21 20:12:30 freebsd-177 kernel: ACPI APIC Table: <VBOX   VBOXAPIC>
+Apr 21 20:12:30 freebsd-177 kernel: random: <Software, Yarrow> initialized
+Apr 21 20:12:30 freebsd-177 kernel: ioapic0 <Version 1.1> irqs 0-23 on motherboard
+Apr 21 20:12:30 freebsd-177 kernel: kbd1 at kbdmux0
+Apr 21 20:12:30 freebsd-177 kernel: acpi0: <VBOX VBOXXSDT> on motherboard
+Apr 21 20:12:30 freebsd-177 kernel: acpi0: Power Button (fixed)
+Apr 21 20:12:30 freebsd-177 kernel: acpi0: Sleep Button (fixed)
+Apr 21 20:12:30 freebsd-177 kernel: cpu0: <ACPI CPU> on acpi0
+Apr 21 20:12:30 freebsd-177 kernel: attimer0: <AT timer> port 0x40-0x43,0x50-0x53 on acpi0
+Apr 21 20:12:30 freebsd-177 kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Apr 21 20:12:30 freebsd-177 kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Apr 21 20:12:30 freebsd-177 kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Apr 21 20:12:30 freebsd-177 kernel: acpi_timer0: <32-bit timer at 3.579545MHz> port 0x4008-0x400b on acpi0
+Apr 21 20:12:30 freebsd-177 kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Apr 21 20:12:30 freebsd-177 kernel: pci0: <ACPI PCI bus> on pcib0
+Apr 21 20:12:30 freebsd-177 kernel: isab0: <PCI-ISA bridge> at device 1.0 on pci0
+Apr 21 20:12:30 freebsd-177 kernel: isa0: <ISA bus> on isab0
+Apr 21 20:12:30 freebsd-177 kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0xd000-0xd00f at device 1.1 on pci0
+Apr 21 20:12:30 freebsd-177 kernel: ata0: <ATA channel> at channel 0 on atapci0
+Apr 21 20:12:30 freebsd-177 kernel: ata1: <ATA channel> at channel 1 on atapci0
+Apr 21 20:12:30 freebsd-177 kernel: vgapci0: <VGA-compatible display> mem 0xe0000000-0xe0ffffff irq 18 at device 2.0 on pci0
+Apr 21 20:12:30 freebsd-177 kernel: vgapci0: Boot video device
+Apr 21 20:12:30 freebsd-177 kernel: em0: <Intel(R) PRO/1000 Legacy Network Connection 1.1.0> port 0xd010-0xd017 mem 0xf0000000-0xf001ffff irq 19 at device 3.0 on pci0
+Apr 21 20:12:30 freebsd-177 kernel: em0: Ethernet address: 08:00:27:f9:ea:cc
+Apr 21 20:12:30 freebsd-177 kernel: pcm0: <Intel ICH (82801AA)> port 0xd100-0xd1ff,0xd200-0xd23f irq 21 at device 5.0 on pci0
+Apr 21 20:12:30 freebsd-177 kernel: pcm0: <SigmaTel STAC9700/83/84 AC97 Codec>
+Apr 21 20:12:30 freebsd-177 kernel: pci0: <bridge> at device 7.0 (no driver attached)
+Apr 21 20:12:30 freebsd-177 kernel: battery0: <ACPI Control Method Battery> on acpi0
+Apr 21 20:12:30 freebsd-177 kernel: acpi_acad0: <AC Adapter> on acpi0
+Apr 21 20:12:30 freebsd-177 kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Apr 21 20:12:30 freebsd-177 kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Apr 21 20:12:30 freebsd-177 kernel: kbd0 at atkbd0
+Apr 21 20:12:30 freebsd-177 kernel: atkbd0: [GIANT-LOCKED]
+Apr 21 20:12:30 freebsd-177 kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Apr 21 20:12:30 freebsd-177 kernel: psm0: [GIANT-LOCKED]
+Apr 21 20:12:30 freebsd-177 kernel: psm0: model IntelliMouse Explorer, device ID 4
+Apr 21 20:12:30 freebsd-177 kernel: orm0: <ISA Option ROMs> at iomem 0xc0000-0xc7fff,0xe2000-0xef7ff on isa0
+Apr 21 20:12:30 freebsd-177 kernel: sc0: <System console> at flags 0x100 on isa0
+Apr 21 20:12:30 freebsd-177 kernel: sc0: VGA <16 virtual consoles, flags=0x300>
+Apr 21 20:12:30 freebsd-177 kernel: vga0: <Generic ISA VGA> at port 0x3c0-0x3df iomem 0xa0000-0xbffff on isa0
+Apr 21 20:12:30 freebsd-177 kernel: atrtc0: <AT realtime clock> at port 0x70 irq 8 on isa0
+Apr 21 20:12:30 freebsd-177 kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Apr 21 20:12:30 freebsd-177 kernel: ppc0: cannot reserve I/O port range
+Apr 21 20:12:30 freebsd-177 kernel: ZFS NOTICE: Prefetch is disabled by default if less than 4GB of RAM is present;
+Apr 21 20:12:30 freebsd-177 kernel: to enable, add "vfs.zfs.prefetch_disable=0" to /boot/loader.conf.
+Apr 21 20:12:30 freebsd-177 kernel: ZFS filesystem version: 5
+Apr 21 20:12:30 freebsd-177 kernel: ZFS storage pool version: features support (5000)
+Apr 21 20:12:30 freebsd-177 kernel: Timecounters tick every 1.000 msec
+Apr 21 20:12:30 freebsd-177 kernel: pcm0: ac97 link rate calibration timed out after 1999172 us
+Apr 21 20:12:30 freebsd-177 kernel: em0: link state changed to UP
+Apr 21 20:12:30 freebsd-177 kernel: ada0 at ata0 bus 0 scbus0 target 0 lun 0
+Apr 21 20:12:30 freebsd-177 kernel: ada0: <VBOX HARDDISK 1.0> ATA-6 device
+Apr 21 20:12:30 freebsd-177 kernel: ada0: Serial Number VBc281e83e-a34b9ec5
+Apr 21 20:12:30 freebsd-177 kernel: ada0: 33.300MB/s transfers (UDMA2, PIO 65536bytes)
+Apr 21 20:12:30 freebsd-177 kernel: ada0: 30720MB (62914560 512 byte sectors)
+Apr 21 20:12:30 freebsd-177 kernel: ada0: Previously was known as ad0
+Apr 21 20:12:30 freebsd-177 kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Apr 21 20:12:30 freebsd-177 kernel: cd0: <VBOX CD-ROM 1.0> Removable CD-ROM SCSI device
+Apr 21 20:12:30 freebsd-177 kernel: cd0: Serial Number VB2-01700376
+Apr 21 20:12:30 freebsd-177 kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Apr 21 20:12:30 freebsd-177 kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Apr 21 20:12:30 freebsd-177 kernel: random: unblocking device.
+Apr 21 20:12:30 freebsd-177 kernel: Timecounter "TSC-low" frequency 1297042725 Hz quality 1000
+Apr 21 20:12:30 freebsd-177 kernel: Trying to mount root from zfs:zroot/ROOT/default []...
+Apr 21 20:12:30 freebsd-177 kernel: vboxguest0 port 0xd020-0xd03f mem 0xf0400000-0xf07fffff,0xf0800000-0xf0803fff irq 20 at device 4.0 on pci0
+Apr 21 20:12:30 freebsd-177 kernel: vboxguest: loaded successfully
+Apr 21 20:12:30 freebsd-177 ntpd[609]: ntpd 4.2.8p6-a (1): Starting
+Apr 21 20:12:30 freebsd-177 ntpd[610]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): good hash signature
+Apr 21 20:12:30 freebsd-177 ntpd[610]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): loaded, expire=2016-06-01T00:00:00Z last=2015-07-01T00:00:00Z ofs=36
+Apr 21 20:12:30 freebsd-177 ntpd[610]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): expired less than 690 days ago
+Apr 21 20:13:42 freebsd-177 kernel: [1088618] : Active 1082916 Inactive    5702 : Deactivated    2074 Activated    2107 Cached       0 Flushed       0
+Apr 21 20:13:44 freebsd-177 kernel: [3071033] : Active 3017990 Inactive   53043 : Deactivated   82823 Activated      10 Cached       0 Flushed    3211
+Apr 21 20:13:44 freebsd-177 kernel: [ 189590] : Active  137306 Inactive   52284 : Deactivated   12600 Activated       0 Cached       0 Flushed    2613[  36280] : Active   10078 Inactive   26202 : Deactivated       0 Activated       0 Cached       0 Flushed     836[  16228] : Active    1699 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0[  16892] : Active    2363 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0[ 164845] : Active  150316 Inactive   14529 : Deactivated   13883 Activated       0 Cached       0 Flushed       0
+Apr 21 20:13:44 freebsd-177 kernel: [ 210739] : Active  183299 Inactive   27440 : Deactivated   30727 Activated       0 Cached       0 Flushed     966
+Apr 21 20:13:44 freebsd-177 kernel: [ 114524] : Active   72378 Inactive   42146 : Deactivated   28464 Activated      25 Cached       0 Flushed    2879
+Apr 21 20:13:45 freebsd-177 kernel: [  87650] : Active   46724 Inactive   40926 : Deactivated   10546 Activated       0 Cached       0 Flushed    1944
+Apr 21 20:13:45 freebsd-177 kernel: [  32244] : Active    7877 Inactive   24367 : Deactivated       0 Activated       0 Cached       0 Flushed     707[  15887] : Active    1358 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0[  54023] : Active   39494 Inactive   14529 : Deactivated   11419 Activated       0 Cached       0 Flushed       0
+Apr 21 20:13:48 freebsd-177 kernel: [ 374401] : Active  349429 Inactive   24972 : Deactivated  117737 Activated      34 Cached       0 Flushed     809
+Apr 21 20:13:50 freebsd-177 kernel: [ 301763] : Active  177237 Inactive  124526 : Deactivated   23737 Activated       1 Cached       0 Flushed    7729
+Apr 21 20:13:56 freebsd-177 kernel: [ 502567] : Active  466001 Inactive   36566 : Deactivated  148064 Activated       0 Cached       0 Flushed    1700
+Apr 21 20:14:03 freebsd-177 kernel: [ 606578] : Active  453938 Inactive  152640 : Deactivated   13279 Activated       9 Cached       0 Flushed    9876[  36068] : Active    9196 Inactive   26872 : Deactivated       0 Activated       0 Cached       0 Flushed     922[  15805] : Active    1276 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0[  16176] : Active    1647 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0[  16000] : Active    1471 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0[  16388] : Active    1859 Inactive   14529 : Deactivated    1100 Activated       0 Cached       0 Flushed       0
+Apr 21 20:14:03 freebsd-177 kernel: [  18039] : Active    2479 Inactive   15560 : Deactivated     547 Activated       0 Cached       0 Flushed      69[  17478] : Active    2449 Inactive   15029 : Deactivated       0 Activated       0 Cached       0 Flushed      35[  16042] : Active    1513 Inactive   14529 : Deactivated     212 Activated       0 Cached       0 Flushed       0[  16965] : Active    2238 Inactive   14727 : Deactivated     784 Activated       0 Cached       0 Flushed      14
+Apr 21 20:14:03 freebsd-177 kernel: [  18324] : Active    3060 Inactive   15264 : Deactivated    1453 Activated       0 Cached       0 Flushed      49
+Apr 21 20:14:03 freebsd-177 kernel: [  19070] : Active    3190 Inactive   15880 : Deactivated       0 Activated       0 Cached       0 Flushed      91[  15990] : Active    1461 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0[  16594] : Active    2065 Inactive   14529 : Deactivated       1 Activated       0 Cached       0 Flushed       0[  16042] : Active    1513 Inactive   14529 : Deactivated    1391 Activated       0 Cached       0 Flushed       1[  19076] : Active    3244 Inactive   15832 : Deactivated     673 Activated       0 Cached       0 Flushed      88
+Apr 21 20:14:06 freebsd-177 kernel: [ 274383] : Active  259224 Inactive   15159 : Deactivated    1125 Activated       0 Cached       0 Flushed      43
+Apr 21 20:14:06 freebsd-177 kernel: [  20664] : Active    5108 Inactive   15556 : Deactivated    5108 Activated       0 Cached       0 Flushed      71
+Apr 21 20:14:06 freebsd-177 kernel: [  24206] : Active    4899 Inactive   19307 : Deactivated    4898 Activated       0 Cached       0 Flushed     330
+Apr 21 20:14:06 freebsd-177 kernel: [  24603] : Active    5488 Inactive   19115 : Deactivated    5486 Activated       0 Cached       0 Flushed     312
+Apr 21 20:14:06 freebsd-177 kernel: [  27546] : Active    7884 Inactive   19662 : Deactivated    7880 Activated       0 Cached       0 Flushed     353
+Apr 21 20:14:11 freebsd-177 kernel: swap_pager: out of swap space
+Apr 21 20:14:11 freebsd-177 kernel: swap_pager_getswapspace(16): failed
+Apr 21 20:14:11 freebsd-177 kernel: [  37321] : Active   16480 Inactive   20841 : Deactivated   16460 Activated       2 Cached       0 Flushed     430[  38596] : Active   23017 Inactive   15579 : Deactivated   22976 Activated       0 Cached       0 Flushed       5[  47755] : Active   36868 Inactive   10887 : Deactivated   36743 Activated      64 Cached       0 Flushed       2[ 956018] : Active  953607 Inactive    2411 : Deactivated   29735 Activated       0 Cached       0 Flushed       3[ 955671] : Active  953611 Inactive    2060 : Deactivated   15604 Activated       0 Cached       0 Flushed       0[ 955916] : Active  953603 Inactive    2313 : Deactivated     659 Activated       0 Cached       0 Flushed       0[ 681922] : Active  681821 Inactive     101 : Deactivated   46896 Activated       0 Cached       0 Flushed       0[ 587996] : Active  584966 Inactive    3030 : Deactivated   46899 Activated       0 Cached       0 Flushed       0[ 566982] : Active  563393 Inactive    3589 : Deactivated   46404 Activated       0 Cached       0 Flush
+Apr 21 20:14:11 freebsd-177 kernel: 0[ 582692] : Active  579392 Inactive    3300 : Deactivated   46855 Activated       0 Cached       0 Flushed       0[ 579332] : Active  576281 Inactive    3051 : Deactivated   46859 Activated       0 Cached       0 Flushed       0[ 563669] : Active  560643 Inactive    3026 : Deactivated   46900 Activated       0 Cached       0 Flushed       0[  51289] : Active   46869 Inactive    4420 : Deactivated   46835 Activated       0 Cached       0 Flushed       0
+Apr 21 20:14:55 freebsd-177 kernel: 
+Apr 21 20:14:55 freebsd-177 kernel: pid 1001 (stress), uid 0, was killed: out of swap space
+Apr 21 20:17:32 freebsd-177 reboot: rebooted by omar
+Apr 21 20:17:32 freebsd-177 ntpd[610]: ntpd exiting on signal 15 (Terminated)
+Apr 21 20:17:32 freebsd-177 syslogd: exiting on signal 15
+Apr 21 20:18:11 freebsd-177 syslogd: kernel boot file is /boot/kernel/kernel
+Apr 21 20:18:11 freebsd-177 kernel: Copyright (c) 1992-2016 The FreeBSD Project.
+Apr 21 20:18:11 freebsd-177 kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Apr 21 20:18:11 freebsd-177 kernel: The Regents of the University of California. All rights reserved.
+Apr 21 20:18:11 freebsd-177 kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Apr 21 20:18:11 freebsd-177 kernel: FreeBSD 10.3-RELEASE #24: Sat Apr 21 20:16:31 EET 2018
+Apr 21 20:18:11 freebsd-177 kernel: root@freebsd-177:/usr/obj/usr/src/sys/X amd64
+Apr 21 20:18:11 freebsd-177 kernel: FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Apr 21 20:18:11 freebsd-177 kernel: CPU: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz (2594.05-MHz K8-class CPU)
+Apr 21 20:18:11 freebsd-177 kernel: Origin="GenuineIntel"  Id=0x40651  Family=0x6  Model=0x45  Stepping=1
+Apr 21 20:18:11 freebsd-177 kernel: Features=0x783fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2>
+Apr 21 20:18:11 freebsd-177 kernel: Features2=0x5ed8220b<SSE3,PCLMULQDQ,MON,SSSE3,CX16,SSE4.1,SSE4.2,MOVBE,POPCNT,AESNI,XSAVE,OSXSAVE,AVX,RDRAND>
+Apr 21 20:18:11 freebsd-177 kernel: AMD Features=0x28100800<SYSCALL,NX,RDTSCP,LM>
+Apr 21 20:18:11 freebsd-177 kernel: AMD Features2=0x21<LAHF,ABM>
+Apr 21 20:18:11 freebsd-177 kernel: Structured Extended Features=0x2000<NFPUSG>
+Apr 21 20:18:11 freebsd-177 kernel: TSC: P-state invariant
+Apr 21 20:18:11 freebsd-177 kernel: real memory  = 4831838208 (4608 MB)
+Apr 21 20:18:11 freebsd-177 kernel: avail memory = 4113596416 (3923 MB)
+Apr 21 20:18:11 freebsd-177 kernel: Event timer "LAPIC" quality 400
+Apr 21 20:18:11 freebsd-177 kernel: ACPI APIC Table: <VBOX   VBOXAPIC>
+Apr 21 20:18:11 freebsd-177 kernel: random: <Software, Yarrow> initialized
+Apr 21 20:18:11 freebsd-177 kernel: ioapic0 <Version 1.1> irqs 0-23 on motherboard
+Apr 21 20:18:11 freebsd-177 kernel: kbd1 at kbdmux0
+Apr 21 20:18:11 freebsd-177 kernel: acpi0: <VBOX VBOXXSDT> on motherboard
+Apr 21 20:18:11 freebsd-177 kernel: acpi0: Power Button (fixed)
+Apr 21 20:18:11 freebsd-177 kernel: acpi0: Sleep Button (fixed)
+Apr 21 20:18:11 freebsd-177 kernel: cpu0: <ACPI CPU> on acpi0
+Apr 21 20:18:11 freebsd-177 kernel: attimer0: <AT timer> port 0x40-0x43,0x50-0x53 on acpi0
+Apr 21 20:18:11 freebsd-177 kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Apr 21 20:18:11 freebsd-177 kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Apr 21 20:18:11 freebsd-177 kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Apr 21 20:18:11 freebsd-177 kernel: acpi_timer0: <32-bit timer at 3.579545MHz> port 0x4008-0x400b on acpi0
+Apr 21 20:18:11 freebsd-177 kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Apr 21 20:18:11 freebsd-177 kernel: pci0: <ACPI PCI bus> on pcib0
+Apr 21 20:18:11 freebsd-177 kernel: isab0: <PCI-ISA bridge> at device 1.0 on pci0
+Apr 21 20:18:11 freebsd-177 kernel: isa0: <ISA bus> on isab0
+Apr 21 20:18:11 freebsd-177 kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0xd000-0xd00f at device 1.1 on pci0
+Apr 21 20:18:11 freebsd-177 kernel: ata0: <ATA channel> at channel 0 on atapci0
+Apr 21 20:18:11 freebsd-177 kernel: ata1: <ATA channel> at channel 1 on atapci0
+Apr 21 20:18:11 freebsd-177 kernel: vgapci0: <VGA-compatible display> mem 0xe0000000-0xe0ffffff irq 18 at device 2.0 on pci0
+Apr 21 20:18:11 freebsd-177 kernel: vgapci0: Boot video device
+Apr 21 20:18:11 freebsd-177 kernel: em0: <Intel(R) PRO/1000 Legacy Network Connection 1.1.0> port 0xd010-0xd017 mem 0xf0000000-0xf001ffff irq 19 at device 3.0 on pci0
+Apr 21 20:18:11 freebsd-177 kernel: em0: Ethernet address: 08:00:27:f9:ea:cc
+Apr 21 20:18:11 freebsd-177 kernel: pcm0: <Intel ICH (82801AA)> port 0xd100-0xd1ff,0xd200-0xd23f irq 21 at device 5.0 on pci0
+Apr 21 20:18:11 freebsd-177 kernel: pcm0: <SigmaTel STAC9700/83/84 AC97 Codec>
+Apr 21 20:18:11 freebsd-177 kernel: pci0: <bridge> at device 7.0 (no driver attached)
+Apr 21 20:18:11 freebsd-177 kernel: battery0: <ACPI Control Method Battery> on acpi0
+Apr 21 20:18:11 freebsd-177 kernel: acpi_acad0: <AC Adapter> on acpi0
+Apr 21 20:18:11 freebsd-177 kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Apr 21 20:18:11 freebsd-177 kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Apr 21 20:18:11 freebsd-177 kernel: kbd0 at atkbd0
+Apr 21 20:18:11 freebsd-177 kernel: atkbd0: [GIANT-LOCKED]
+Apr 21 20:18:11 freebsd-177 kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Apr 21 20:18:11 freebsd-177 kernel: psm0: [GIANT-LOCKED]
+Apr 21 20:18:11 freebsd-177 kernel: psm0: model IntelliMouse Explorer, device ID 4
+Apr 21 20:18:11 freebsd-177 kernel: orm0: <ISA Option ROMs> at iomem 0xc0000-0xc7fff,0xe2000-0xef7ff on isa0
+Apr 21 20:18:11 freebsd-177 kernel: sc0: <System console> at flags 0x100 on isa0
+Apr 21 20:18:11 freebsd-177 kernel: sc0: VGA <16 virtual consoles, flags=0x300>
+Apr 21 20:18:11 freebsd-177 kernel: vga0: <Generic ISA VGA> at port 0x3c0-0x3df iomem 0xa0000-0xbffff on isa0
+Apr 21 20:18:11 freebsd-177 kernel: atrtc0: <AT realtime clock> at port 0x70 irq 8 on isa0
+Apr 21 20:18:11 freebsd-177 kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Apr 21 20:18:11 freebsd-177 kernel: ppc0: cannot reserve I/O port range
+Apr 21 20:18:11 freebsd-177 kernel: ZFS NOTICE: Prefetch is disabled by default if less than 4GB of RAM is present;
+Apr 21 20:18:11 freebsd-177 kernel: to enable, add "vfs.zfs.prefetch_disable=0" to /boot/loader.conf.
+Apr 21 20:18:11 freebsd-177 kernel: ZFS filesystem version: 5
+Apr 21 20:18:11 freebsd-177 kernel: ZFS storage pool version: features support (5000)
+Apr 21 20:18:11 freebsd-177 kernel: Timecounters tick every 1.000 msec
+Apr 21 20:18:11 freebsd-177 kernel: pcm0: ac97 link rate calibration timed out after 1999209 us
+Apr 21 20:18:11 freebsd-177 kernel: em0: link state changed to UP
+Apr 21 20:18:11 freebsd-177 kernel: random: unblocking device.
+Apr 21 20:18:11 freebsd-177 kernel: ada0 at ata0 bus 0 scbus0 target 0 lun 0
+Apr 21 20:18:11 freebsd-177 kernel: ada0: <VBOX HARDDISK 1.0> ATA-6 device
+Apr 21 20:18:11 freebsd-177 kernel: ada0: Serial Number VBc281e83e-a34b9ec5
+Apr 21 20:18:11 freebsd-177 kernel: ada0: 33.300MB/s transfers (UDMA2, PIO 65536bytes)
+Apr 21 20:18:11 freebsd-177 kernel: ada0: 30720MB (62914560 512 byte sectors)
+Apr 21 20:18:11 freebsd-177 kernel: ada0: Previously was known as ad0
+Apr 21 20:18:11 freebsd-177 kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Apr 21 20:18:11 freebsd-177 kernel: cd0: <VBOX CD-ROM 1.0> Removable CD-ROM SCSI device
+Apr 21 20:18:11 freebsd-177 kernel: cd0: Serial Number VB2-01700376
+Apr 21 20:18:11 freebsd-177 kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Apr 21 20:18:11 freebsd-177 kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Apr 21 20:18:11 freebsd-177 kernel: Timecounter "TSC-low" frequency 1297024685 Hz quality 1000
+Apr 21 20:18:11 freebsd-177 kernel: Trying to mount root from zfs:zroot/ROOT/default []...
+Apr 21 20:18:11 freebsd-177 kernel: vboxguest0 port 0xd020-0xd03f mem 0xf0400000-0xf07fffff,0xf0800000-0xf0803fff irq 20 at device 4.0 on pci0
+Apr 21 20:18:11 freebsd-177 kernel: vboxguest: loaded successfully
+Apr 21 20:18:11 freebsd-177 ntpd[609]: ntpd 4.2.8p6-a (1): Starting
+Apr 21 20:18:11 freebsd-177 ntpd[610]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): good hash signature
+Apr 21 20:18:11 freebsd-177 ntpd[610]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): loaded, expire=2016-06-01T00:00:00Z last=2015-07-01T00:00:00Z ofs=36
+Apr 21 20:18:11 freebsd-177 ntpd[610]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): expired less than 690 days ago
+Apr 21 20:19:58 freebsd-177 kernel: [1036307] : Active 1030435 Inactive    5872 : Deactivated    2411 Activated    2040 Cached       0 Flushed       1
+Apr 21 20:19:58 freebsd-177 kernel: [ 956505] : Active  954414 Inactive    2091 : Deactivated      12 Activated      10 Cached       0 Flushed     460
+Apr 21 20:19:58 freebsd-177 kernel: [ 955649] : Active  954448 Inactive    1201 : Deactivated       5 Activated       1 Cached       0 Flushed      11
+Apr 21 20:19:58 freebsd-177 kernel: [ 955621] : Active  955605 Inactive      16 : Deactivated   24711 Activated       0 Cached       0 Flushed       3
+Apr 21 20:20:00 freebsd-177 kernel: [ 406365] : Active  318624 Inactive   87741 : Deactivated   70768 Activated       0 Cached       0 Flushed    4714
+Apr 21 20:20:00 freebsd-177 kernel: [  49552] : Active   14141 Inactive   35411 : Deactivated       0 Activated       0 Cached       0 Flushed    1440
+Apr 21 20:20:00 freebsd-177 kernel: [  16305] : Active    1776 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:00 freebsd-177 kernel: [  16334] : Active    1805 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:00 freebsd-177 kernel: [ 177388] : Active  162859 Inactive   14529 : Deactivated    8351 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:01 freebsd-177 kernel: [ 240558] : Active  218219 Inactive   22339 : Deactivated   25616 Activated       0 Cached       0 Flushed     541
+Apr 21 20:20:01 freebsd-177 kernel: [ 150265] : Active  111842 Inactive   38423 : Deactivated   30106 Activated       0 Cached       0 Flushed    1697
+Apr 21 20:20:01 freebsd-177 kernel: [ 207189] : Active  165372 Inactive   41817 : Deactivated   16389 Activated       0 Cached       0 Flushed    2728
+Apr 21 20:20:01 freebsd-177 kernel: [  45990] : Active   16962 Inactive   29028 : Deactivated    3777 Activated       0 Cached       0 Flushed    1744
+Apr 21 20:20:01 freebsd-177 kernel: [  23710] : Active    5676 Inactive   18034 : Deactivated       0 Activated       0 Cached       0 Flushed     272
+Apr 21 20:20:01 freebsd-177 kernel: [  19191] : Active    4662 Inactive   14529 : Deactivated    4662 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:01 freebsd-177 kernel: [  47054] : Active   28182 Inactive   18872 : Deactivated   20671 Activated       0 Cached       0 Flushed     319
+Apr 21 20:20:02 freebsd-177 kernel: [  64534] : Active   30787 Inactive   33747 : Deactivated   30537 Activated       0 Cached       0 Flushed    1453
+Apr 21 20:20:02 freebsd-177 kernel: [ 106793] : Active   63829 Inactive   42964 : Deactivated   22379 Activated       0 Cached       0 Flushed    2102
+Apr 21 20:20:03 freebsd-177 kernel: [  88478] : Active   53169 Inactive   35309 : Deactivated   11967 Activated       1 Cached       0 Flushed    1590
+Apr 21 20:20:09 freebsd-177 kernel: [ 532260] : Active  506594 Inactive   25666 : Deactivated  227948 Activated       0 Cached       0 Flushed     830
+Apr 21 20:20:15 freebsd-177 kernel: [ 636040] : Active  403623 Inactive  232417 : Deactivated       2 Activated       0 Cached       0 Flushed   10000
+Apr 21 20:20:15 freebsd-177 kernel: [  17862] : Active    3333 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       1
+Apr 21 20:20:15 freebsd-177 kernel: [  15710] : Active    1181 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:15 freebsd-177 kernel: [  16514] : Active    1985 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:15 freebsd-177 kernel: [  16337] : Active    1808 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:15 freebsd-177 kernel: [  16005] : Active    1476 Inactive   14529 : Deactivated    1003 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:15 freebsd-177 kernel: [  18018] : Active    2555 Inactive   15463 : Deactivated     472 Activated       0 Cached       0 Flushed      69
+Apr 21 20:20:15 freebsd-177 kernel: [  17802] : Active    2831 Inactive   14971 : Deactivated     509 Activated       0 Cached       0 Flushed      30
+Apr 21 20:20:15 freebsd-177 kernel: [  17342] : Active    2337 Inactive   15005 : Deactivated       0 Activated       0 Cached       0 Flushed      33
+Apr 21 20:20:15 freebsd-177 kernel: [  16115] : Active    1586 Inactive   14529 : Deactivated    1346 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:15 freebsd-177 kernel: [  18936] : Active    3146 Inactive   15790 : Deactivated     227 Activated       0 Cached       0 Flushed      85
+Apr 21 20:20:19 freebsd-177 kernel: [ 438109] : Active  380900 Inactive   57209 : Deactivated    2216 Activated       0 Cached       0 Flushed    2829
+Apr 21 20:20:20 freebsd-177 kernel: [  57816] : Active   18012 Inactive   39804 : Deactivated       0 Activated       0 Cached       0 Flushed    1941
+Apr 21 20:20:20 freebsd-177 kernel: [  15475] : Active     946 Inactive   14529 : Deactivated     946 Activated       0 Cached       0 Flushed       0
+Apr 21 20:20:20 freebsd-177 kernel: [  46330] : Active   12554 Inactive   33776 : Deactivated   12554 Activated       0 Cached       0 Flushed    1445
+Apr 21 20:20:20 freebsd-177 kernel: [  36187] : Active    9913 Inactive   26274 : Deactivated    4512 Activated       0 Cached       0 Flushed     809
+Apr 21 20:20:20 freebsd-177 kernel: [  25225] : Active    6471 Inactive   18754 : Deactivated    5401 Activated       0 Cached       0 Flushed     287
+Apr 21 20:20:20 freebsd-177 kernel: swap_pager: out of swap space
+Apr 21 20:20:20 freebsd-177 kernel: swap_pager_getswapspace(16): failed
+Apr 21 20:20:20 freebsd-177 kernel: [  19553] : Active    4126 Inactive   15427 : Deactivated    1070 Activated       0 Cached       0 Flushed      45
+Apr 21 20:20:20 freebsd-177 kernel: [ 316091] : Active  301494 Inactive   14597 : Deactivated    4816 Activated       0 Cached       0 Flushed       1
+Apr 21 20:20:20 freebsd-177 kernel: [ 308313] : Active  293472 Inactive   14841 : Deactivated   19325 Activated       0 Cached       0 Flushed       8
+Apr 21 20:20:20 freebsd-177 kernel: [  48190] : Active   33908 Inactive   14282 : Deactivated   33904 Activated      43 Cached       0 Flushed       0
+Apr 21 20:21:28 freebsd-177 kernel: pid 999 (stress), uid 0, was killed: out of swap space
+Apr 21 21:19:31 freebsd-177 syslogd: kernel boot file is /boot/kernel/kernel
+Apr 21 21:19:31 freebsd-177 kernel: Copyright (c) 1992-2016 The FreeBSD Project.
+Apr 21 21:19:31 freebsd-177 kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Apr 21 21:19:31 freebsd-177 kernel: The Regents of the University of California. All rights reserved.
+Apr 21 21:19:31 freebsd-177 kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Apr 21 21:19:31 freebsd-177 kernel: FreeBSD 10.3-RELEASE #25: Sat Apr 21 21:11:52 EET 2018
+Apr 21 21:19:31 freebsd-177 kernel: root@freebsd-177:/usr/obj/usr/src/sys/X amd64
+Apr 21 21:19:31 freebsd-177 kernel: FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Apr 21 21:19:31 freebsd-177 kernel: CPU: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz (2594.06-MHz K8-class CPU)
+Apr 21 21:19:31 freebsd-177 kernel: Origin="GenuineIntel"  Id=0x40651  Family=0x6  Model=0x45  Stepping=1
+Apr 21 21:19:31 freebsd-177 kernel: Features=0x783fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2>
+Apr 21 21:19:31 freebsd-177 kernel: Features2=0x5ed8220b<SSE3,PCLMULQDQ,MON,SSSE3,CX16,SSE4.1,SSE4.2,MOVBE,POPCNT,AESNI,XSAVE,OSXSAVE,AVX,RDRAND>
+Apr 21 21:19:31 freebsd-177 kernel: AMD Features=0x28100800<SYSCALL,NX,RDTSCP,LM>
+Apr 21 21:19:31 freebsd-177 kernel: AMD Features2=0x21<LAHF,ABM>
+Apr 21 21:19:31 freebsd-177 kernel: Structured Extended Features=0x2000<NFPUSG>
+Apr 21 21:19:31 freebsd-177 kernel: TSC: P-state invariant
+Apr 21 21:19:31 freebsd-177 kernel: real memory  = 4831838208 (4608 MB)
+Apr 21 21:19:31 freebsd-177 kernel: avail memory = 4113596416 (3923 MB)
+Apr 21 21:19:31 freebsd-177 kernel: Event timer "LAPIC" quality 400
+Apr 21 21:19:31 freebsd-177 kernel: ACPI APIC Table: <VBOX   VBOXAPIC>
+Apr 21 21:19:31 freebsd-177 kernel: random: <Software, Yarrow> initialized
+Apr 21 21:19:31 freebsd-177 kernel: ioapic0 <Version 1.1> irqs 0-23 on motherboard
+Apr 21 21:19:31 freebsd-177 kernel: kbd1 at kbdmux0
+Apr 21 21:19:31 freebsd-177 kernel: acpi0: <VBOX VBOXXSDT> on motherboard
+Apr 21 21:19:31 freebsd-177 kernel: acpi0: Power Button (fixed)
+Apr 21 21:19:31 freebsd-177 kernel: acpi0: Sleep Button (fixed)
+Apr 21 21:19:31 freebsd-177 kernel: cpu0: <ACPI CPU> on acpi0
+Apr 21 21:19:31 freebsd-177 kernel: attimer0: <AT timer> port 0x40-0x43,0x50-0x53 on acpi0
+Apr 21 21:19:31 freebsd-177 kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Apr 21 21:19:31 freebsd-177 kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Apr 21 21:19:31 freebsd-177 kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Apr 21 21:19:31 freebsd-177 kernel: acpi_timer0: <32-bit timer at 3.579545MHz> port 0x4008-0x400b on acpi0
+Apr 21 21:19:31 freebsd-177 kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Apr 21 21:19:31 freebsd-177 kernel: pci0: <ACPI PCI bus> on pcib0
+Apr 21 21:19:31 freebsd-177 kernel: isab0: <PCI-ISA bridge> at device 1.0 on pci0
+Apr 21 21:19:31 freebsd-177 kernel: isa0: <ISA bus> on isab0
+Apr 21 21:19:31 freebsd-177 kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0xd000-0xd00f at device 1.1 on pci0
+Apr 21 21:19:31 freebsd-177 kernel: ata0: <ATA channel> at channel 0 on atapci0
+Apr 21 21:19:31 freebsd-177 kernel: ata1: <ATA channel> at channel 1 on atapci0
+Apr 21 21:19:31 freebsd-177 kernel: vgapci0: <VGA-compatible display> mem 0xe0000000-0xe0ffffff irq 18 at device 2.0 on pci0
+Apr 21 21:19:31 freebsd-177 kernel: vgapci0: Boot video device
+Apr 21 21:19:31 freebsd-177 kernel: em0: <Intel(R) PRO/1000 Legacy Network Connection 1.1.0> port 0xd010-0xd017 mem 0xf0000000-0xf001ffff irq 19 at device 3.0 on pci0
+Apr 21 21:19:31 freebsd-177 kernel: em0: Ethernet address: 08:00:27:f9:ea:cc
+Apr 21 21:19:31 freebsd-177 kernel: pcm0: <Intel ICH (82801AA)> port 0xd100-0xd1ff,0xd200-0xd23f irq 21 at device 5.0 on pci0
+Apr 21 21:19:31 freebsd-177 kernel: pcm0: <SigmaTel STAC9700/83/84 AC97 Codec>
+Apr 21 21:19:31 freebsd-177 kernel: pci0: <bridge> at device 7.0 (no driver attached)
+Apr 21 21:19:31 freebsd-177 kernel: battery0: <ACPI Control Method Battery> on acpi0
+Apr 21 21:19:31 freebsd-177 kernel: acpi_acad0: <AC Adapter> on acpi0
+Apr 21 21:19:31 freebsd-177 kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Apr 21 21:19:31 freebsd-177 kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Apr 21 21:19:31 freebsd-177 kernel: kbd0 at atkbd0
+Apr 21 21:19:31 freebsd-177 kernel: atkbd0: [GIANT-LOCKED]
+Apr 21 21:19:31 freebsd-177 kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Apr 21 21:19:31 freebsd-177 kernel: psm0: [GIANT-LOCKED]
+Apr 21 21:19:31 freebsd-177 kernel: psm0: model IntelliMouse Explorer, device ID 4
+Apr 21 21:19:31 freebsd-177 kernel: orm0: <ISA Option ROMs> at iomem 0xc0000-0xc7fff,0xe2000-0xef7ff on isa0
+Apr 21 21:19:31 freebsd-177 kernel: sc0: <System console> at flags 0x100 on isa0
+Apr 21 21:19:31 freebsd-177 kernel: sc0: VGA <16 virtual consoles, flags=0x300>
+Apr 21 21:19:31 freebsd-177 kernel: vga0: <Generic ISA VGA> at port 0x3c0-0x3df iomem 0xa0000-0xbffff on isa0
+Apr 21 21:19:31 freebsd-177 kernel: atrtc0: <AT realtime clock> at port 0x70 irq 8 on isa0
+Apr 21 21:19:31 freebsd-177 kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Apr 21 21:19:31 freebsd-177 kernel: ppc0: cannot reserve I/O port range
+Apr 21 21:19:31 freebsd-177 kernel: ZFS NOTICE: Prefetch is disabled by default if less than 4GB of RAM is present;
+Apr 21 21:19:31 freebsd-177 kernel: to enable, add "vfs.zfs.prefetch_disable=0" to /boot/loader.conf.
+Apr 21 21:19:31 freebsd-177 kernel: ZFS filesystem version: 5
+Apr 21 21:19:31 freebsd-177 kernel: ZFS storage pool version: features support (5000)
+Apr 21 21:19:31 freebsd-177 kernel: Timecounters tick every 1.000 msec
+Apr 21 21:19:31 freebsd-177 kernel: pcm0: ac97 link rate calibration timed out after 1999173 us
+Apr 21 21:19:31 freebsd-177 kernel: em0: link state changed to UP
+Apr 21 21:19:31 freebsd-177 kernel: ada0 at ata0 bus 0 scbus0 target 0 lun 0
+Apr 21 21:19:31 freebsd-177 kernel: ada0: <VBOX HARDDISK 1.0> ATA-6 device
+Apr 21 21:19:31 freebsd-177 kernel: ada0: Serial Number VBc281e83e-a34b9ec5
+Apr 21 21:19:31 freebsd-177 kernel: ada0: 33.300MB/s transfers (UDMA2, PIO 65536bytes)
+Apr 21 21:19:31 freebsd-177 kernel: ada0: 30720MB (62914560 512 byte sectors)
+Apr 21 21:19:31 freebsd-177 kernel: ada0: Previously was known as ad0
+Apr 21 21:19:31 freebsd-177 kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Apr 21 21:19:31 freebsd-177 kernel: cd0: <VBOX CD-ROM 1.0> Removable CD-ROM SCSI device
+Apr 21 21:19:31 freebsd-177 kernel: cd0: Serial Number VB2-01700376
+Apr 21 21:19:31 freebsd-177 kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Apr 21 21:19:31 freebsd-177 kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Apr 21 21:19:31 freebsd-177 kernel: random: unblocking device.
+Apr 21 21:19:31 freebsd-177 kernel: Timecounter "TSC-low" frequency 1297029706 Hz quality 1000
+Apr 21 21:19:31 freebsd-177 kernel: Trying to mount root from zfs:zroot/ROOT/default []...
+Apr 21 21:19:31 freebsd-177 kernel: vboxguest0 port 0xd020-0xd03f mem 0xf0400000-0xf07fffff,0xf0800000-0xf0803fff irq 20 at device 4.0 on pci0
+Apr 21 21:19:31 freebsd-177 kernel: vboxguest: loaded successfully
+Apr 21 21:19:31 freebsd-177 ntpd[621]: ntpd 4.2.8p6-a (1): Starting
+Apr 21 21:19:31 freebsd-177 kernel: .
+Apr 21 21:19:31 freebsd-177 ntpd[622]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): good hash signature
+Apr 21 21:19:31 freebsd-177 ntpd[622]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): loaded, expire=2016-06-01T00:00:00Z last=2015-07-01T00:00:00Z ofs=36
+Apr 21 21:19:31 freebsd-177 ntpd[622]: leapsecond file ('/var/db/ntpd.leap-seconds.list'): expired less than 690 days ago
+Apr 21 21:20:30 freebsd-177 kernel: [1023022] : Active 1017685 Inactive    5337 : Deactivated    1631 Activated    2027 Cached       0 Flushed       0
+Apr 21 21:20:32 freebsd-177 kernel: [3068113] : Active 3024194 Inactive   43919 : Deactivated   91052 Activated       6 Cached       0 Flushed    2023
+Apr 21 21:20:33 freebsd-177 kernel: [ 255248] : Active  164371 Inactive   90877 : Deactivated   63751 Activated       0 Cached       0 Flushed    4393
+Apr 21 21:20:33 freebsd-177 kernel: [  16717] : Active    2188 Inactive   14529 : Deactivated     318 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:33 freebsd-177 kernel: [  15641] : Active    1112 Inactive   14529 : Deactivated    1003 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:33 freebsd-177 kernel: [  17049] : Active    2520 Inactive   14529 : Deactivated    2084 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:34 freebsd-177 kernel: [ 237390] : Active  145914 Inactive   91476 : Deactivated   71398 Activated       4 Cached       0 Flushed    4350
+Apr 21 21:20:34 freebsd-177 kernel: [  17783] : Active    3254 Inactive   14529 : Deactivated     491 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:34 freebsd-177 kernel: [  16225] : Active    1696 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:34 freebsd-177 kernel: [  16514] : Active    1984 Inactive   14530 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:47 freebsd-177 kernel: [1254541] : Active 1159691 Inactive   94850 : Deactivated   93134 Activated       6 Cached       0 Flushed    4757
+Apr 21 21:20:47 freebsd-177 kernel: [  16709] : Active    2180 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:47 freebsd-177 kernel: [  16337] : Active    1808 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:47 freebsd-177 kernel: [  16285] : Active    1756 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:51 freebsd-177 kernel: [ 997800] : Active  916751 Inactive   81049 : Deactivated     134 Activated       0 Cached       0 Flushed    3410
+Apr 21 21:20:51 freebsd-177 kernel: [  17606] : Active    3077 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:51 freebsd-177 kernel: [  17478] : Active    2949 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:52 freebsd-177 kernel: [1440742] : Active 1376527 Inactive   64215 : Deactivated    9244 Activated       0 Cached       0 Flushed    2733
+Apr 21 21:20:52 freebsd-177 kernel: [  29057] : Active   14528 Inactive   14529 : Deactivated   14528 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:53 freebsd-177 kernel: [ 616504] : Active  566422 Inactive   50082 : Deactivated   89817 Activated       5 Cached       0 Flushed    2741
+Apr 21 21:20:54 freebsd-177 kernel: [ 246477] : Active  133286 Inactive  113191 : Deactivated  102480 Activated       0 Cached       0 Flushed    6288
+Apr 21 21:20:54 freebsd-177 kernel: [  16715] : Active    2186 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:54 freebsd-177 kernel: [  16199] : Active    1670 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:54 freebsd-177 kernel: [  16553] : Active    2024 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:54 freebsd-177 kernel: [  16342] : Active    1813 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:54 freebsd-177 kernel: [  43530] : Active   11582 Inactive   31948 : Deactivated     109 Activated       1 Cached       0 Flushed    1328
+Apr 21 21:20:54 freebsd-177 kernel: [  16061] : Active    1532 Inactive   14529 : Deactivated       0 Activated       0 Cached       0 Flushed       0
+Apr 21 21:20:59 freebsd-177 kernel: swap_pager_getswapspace(16): failed
+Apr 21 21:21:00 freebsd-177 kernel: [ 563715] : Active  473235 Inactive   90480 : Deactivated  325353 Activated       4 Cached       0 Flushed    4669
